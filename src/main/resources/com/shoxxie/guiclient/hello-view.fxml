@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane xmlns:fx="http://javafx.com/fxml" fx:controller="com.shoxxie.guiclient.HelloController">
+    <TextArea fx:id="textArea" editable="false" prefHeight="300.0" prefWidth="300.0" layoutX="10.0" layoutY="10.0" style="-fx-border-color: black; -fx-border-width: 3px;" />
+
+    <TextField fx:id="textField" promptText="Enter your message here..." prefHeight="100.0" prefWidth="300.0" layoutX="10.0" layoutY="320.0" style="-fx-border-color: black; -fx-border-width: 3px;" alignment="TOP_LEFT" />
+
+    <Button fx:id="button" text="Send" prefHeight="60.0" prefWidth="300.0" layoutX="10.0" layoutY="430.0" style="-fx-border-color: #49d249; -fx-border-width: 5px;" onAction="#handleSendButton" />
+
+    <ListView fx:id="listView" prefHeight="480.0" prefWidth="170.0" layoutX="320.0" layoutY="10.0" style="-fx-border-color: black; -fx-border-width: 3px;">
+
+    </ListView>
+</Pane>
